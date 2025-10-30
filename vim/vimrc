@@ -42,8 +42,9 @@ runtime! debian.vim
 " Vim5 and later versions support syntax highlighting. Uncommenting the next
 " line enables syntax highlighting by default.
 if has("syntax")
-  syntax off 
+  syntax on 
 endif
+
 
 " If using a dark background within the editing area and syntax highlighting
 " turn on this option as well
@@ -54,7 +55,7 @@ endif
 "au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 
 " Uncomment the following to have Vim load indentation rules and plugins
-" according to the detected filetype.
+"according to the detected filetype.
 "filetype plugin indent on
 
 " The following are commented out as they cause vim to behave a lot

@@ -59,5 +59,5 @@ mv $HOME/thinkpad-conf/bash/bashrc $HOME/.bashrc
 
 mkdir -p $HOME/dev
 mkdir -p $HOME/hax
-#set up xfce terminal 
+mkdir -p $HOME/targets
 
