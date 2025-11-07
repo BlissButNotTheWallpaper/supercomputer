@@ -51,6 +51,10 @@ echo "making .local/bin"
 mkdir -p $HOME/.local/bin
 mkdir -p $HOME/.local/share
 
+# set up tlp
+
+sudo mv $HOME/supercomputer/tlp/tlp.conf /etc/
+
 # set up bashrc
 echo "setting up bashrc ..."
 mv $HOME/supercomputer/bash/bashrc $HOME/.bashrc
