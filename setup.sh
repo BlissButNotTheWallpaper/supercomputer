@@ -65,3 +65,13 @@ mkdir -p $HOME/dev
 mkdir -p $HOME/hax
 mkdir -p $HOME/targets
 
+mkdir -p $HOME/Downloads/appimages
+mkdir -p $HOME/Downloads/certs
+mkdir -p $HOME/Downloads/tmp
+
+mkdir -p $HOME/Documents/cherry
+mkdir -p $HOME/Documents/todo
+
+
+
+
