@@ -35,12 +35,21 @@ mv $HOME/supercomputer/rofi/config.rasi $HOME/.config/rofi/
 
 # set up tmux
 echo "setting up tmux ..."
+
+#root tmux setup
+sudo mkdir -p /root/.config/tmux/
+sudo mv $HOME/supercomputer/tmux/root_tmux.conf /root/.config/tmux/tmux.conf
+
 mv $HOME/supercomputer/tmux/tmux.conf $HOME/.config/tmux/
 mv $HOME/supercomputer/tmux/fzf_cd.sh $HOME/.config/tmux/
 mv $HOME/supercomputer/tmux/fzf_vim.sh $HOME/.config/tmux/
 
 # set up vim 
 echo "setting up vim ..." 
+
+# vim root setup 
+sudo mv $HOME/supercomputer/vim/root_vimrc /root/.vimrc
+
 mv $HOME/supercomputer/vim/vimrc $HOME/.vimrc
 
 # set up screen-scale
@@ -51,12 +60,12 @@ echo "making .local/bin"
 mkdir -p $HOME/.local/bin
 mkdir -p $HOME/.local/share
 
-# set up tlp
-
-sudo mv $HOME/supercomputer/tlp/tlp.conf /etc/
-
 # set up bashrc
 echo "setting up bashrc ..."
+
+# set up root bashrc
+sudo mv $HOME/supercomputer/bash/root_bashrc /root/.bashrc
+
 mv $HOME/supercomputer/bash/bashrc $HOME/.bashrc
 
 # make dev dir in home
