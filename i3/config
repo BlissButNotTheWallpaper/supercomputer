@@ -200,8 +200,10 @@ assign [class="Xfce4-terminal"] $ws3
 assign [class="Cherrytree"] $ws4
 assign [class="install4j-burp-StartBurp"] $ws5
 assign [class="KeePassXC"] $ws6
+assign [class="VSCodium"] $ws8
 assign [class="Thunar"] $ws9
 assign [class="Protonvpn-app"] $ws10
+assign [class="Audacious"] $ws10
 
 ################ auto lunch apps #####################
 
