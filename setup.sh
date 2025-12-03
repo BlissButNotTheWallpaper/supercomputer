@@ -2,7 +2,7 @@
 
 #install all packages required
 
-packages=("i3" "rofi" "tmux" "vim" "fzf" "cherrytree" "flameshot" "fd-find")
+packages=("i3" "rofi" "tmux" "vim" "fzf" "cherrytree" "flameshot" "fd-find" "keepassxc")
 
 printf "Updating ...\n"
 sudo apt update
@@ -71,10 +71,8 @@ mv $HOME/supercomputer/bash/bashrc $HOME/.bashrc
 # make dev dir in home
 
 mkdir -p $HOME/dev
-mkdir -p $HOME/hax
-mkdir -p $HOME/targets
+mkdir -p $HOME/sectools
 
-mkdir -p $HOME/Downloads/appimages
 mkdir -p $HOME/Downloads/certs
 mkdir -p $HOME/Downloads/tmp
 

@@ -217,7 +217,7 @@ bindsym $mod+b exec --no-startup-id firefox
 bindsym $mod+v exec --no-startup-id librewolf
 bindsym $mod+Return exec --no-startup-id xfce4-terminal  
 bindsym $mod+c exec --no-startup-id cherrytree
-bindsym $mod+m exec --no-startup-id $HOME/Downloads/appimages/KeePassXC-2.7.10-x86_64.AppImage 
+bindsym $mod+m exec --no-startup-id keepassxc
 bindsym $mod+p exec --no-startup-id flameshot gui
 
 ################ compositor ################
