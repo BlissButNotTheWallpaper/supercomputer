@@ -2,7 +2,7 @@
 
 #install all packages required
 
-packages=("i3" "rofi" "tmux" "vim" "fzf" "cherrytree" "flameshot" "fd-find" "keepassxc")
+packages=("i3" "rofi" "tmux" "vim" "fzf" "cherrytree" "flameshot" "keepassxc")
 
 printf "Updating ...\n"
 sudo apt update
